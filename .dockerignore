@@ -1,0 +1,30 @@
+# Ignore Python cache & temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore logs
+*.log
+
+# Ignore git repo
+.git
+.gitignore
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# OS / editor junk
+.DS_Store
+.idea/
+.vscode/
+
+# Don't copy local environment variables
+.env
+
+
